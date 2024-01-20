@@ -9,3 +9,9 @@ const smith = new Users("smith", 1998);
 const harry = new Users("harry", 2003);
 
 console.log(jonas, smith, harry);
+
+Users.prototype.calcAge = function () {
+  console.log(2024 - this.birthYear);
+};
+
+jonas.calcAge();

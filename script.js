@@ -1,7 +1,7 @@
 "use strict";
 
-const Person = function (firstname, birthYear) {
-  (this.firstname = firstname), (this.birthYear = birthYear);
+const Person = function (firstName, birthYear) {
+  (this.firstName = firstName), (this.birthYear = birthYear);
 };
 
 const jonas = new Person("jonas", 1991);

@@ -31,3 +31,11 @@
 // console.log(jonas.species, smith.species, harry.species);
 // console.log(jonas.hasOwnProperty("firstName"));
 // console.log(jonas.hasOwnProperty("species"));
+
+const Car = function (make, speed) {
+  this.make = make;
+  this.speed = speed;
+};
+
+const bmw = new Car("BMW", 120km/h);
+const mercedes = new Car("Mercedes", 95km/h);
